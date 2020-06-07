@@ -6,18 +6,19 @@ const prom = new Promise((res, rej) => {
       res('success');
     }, 1000);
   });
-  const prom2 = prom.then(() => {
-    throw new Error('error');
-  });
+
+const prom2 = prom.then(() => {
+  throw new Error('error');
+});
   
+console.log('prom', prom);
+console.log('prom2', prom2);
+
+setTimeout(() => {
   console.log('prom', prom);
   console.log('prom2', prom2);
-  
-  setTimeout(() => {
-    console.log('prom', prom);
-    console.log('prom2', prom2);
-  }, 2000);
-  
+}, 2000);
+
   
 //Output:
 //   prom Promise { <pending> }
