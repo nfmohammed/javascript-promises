@@ -1,0 +1,5 @@
+node_modules/
+.idea/
+.eclipse/
+.classpath
+.DS_Store

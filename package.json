@@ -1,0 +1,22 @@
+{
+  "name": "javascript-promises",
+  "version": "1.0.0",
+  "description": "javascript promises tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nfmohammed/javascript-promises.git"
+  },
+  "author": "naseer mohammed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nfmohammed/javascript-promises/issues"
+  },
+  "homepage": "https://github.com/nfmohammed/javascript-promises#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}
