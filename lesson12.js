@@ -34,7 +34,8 @@ const codeBlocker = () => {
 
 log('Synchronous 1');
 
-//codeBlocker();
+
+//log(codeBlocker());
 codeBlocker().then(log)
 
 
