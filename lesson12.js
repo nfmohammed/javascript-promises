@@ -11,7 +11,7 @@ const codeBlocker = () => {
     // return 'billion loops done';
 
 
-    // Async blocking
+    // Async blocking, because new Promise creation and while-loop is still happening in the main thread.
 
     // return new Promise((resolve, reject) => {
 
